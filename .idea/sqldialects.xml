@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/employer/repository/ZyEmployerUserRepository.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/user/repository/ZyDriveUserRepository.java" dialect="MySQL" />
+  </component>
+  <component name="SqlResolveMappings">
+    <file url="file://$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/user/repository/ZyDriveUserRepository.java" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
+    <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;6048d326-ca12-497a-bb42-e7f8b7ca5099&quot;    },    &quot;group&quot;:{     &quot;@kind&quot;:&quot;schema&quot;,     &quot;node&quot;:{      &quot;name&quot;:{       &quot;@qname&quot;:&quot;admin&quot;      }     }    }   }  } }}" />
+  </component>
+</project>

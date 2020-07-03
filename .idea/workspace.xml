@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a7e23bc-0256-46fe-87ba-db56ad127e04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/annotation/AnonymousAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/annotation/DataPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/annotation/Limit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/annotation/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/aspect/LimitAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/aspect/LimitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/base/BaseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/base/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/config/AuditorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/config/ConstantConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/config/ElPermissionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/config/FileDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/config/FileProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/config/RsaProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/config/WeiXinConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/exception/EntityExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/exception/EntityNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/exception/handler/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/exception/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/AliyunOSSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/ElAdminConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/EncryptUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/PageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/QueryHelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/RequestHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/RsaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/SmsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/SpringContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/ThrowableUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/TranslatorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/ValidationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/main/java/me/zhengjie/utils/WeiXinUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/test/java/me/zhengjie/utils/EncryptUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/test/java/me/zhengjie/utils/FileUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-common/src/test/java/me/zhengjie/utils/StringUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/domain/ColumnInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/domain/GenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/domain/vo/TableInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/repository/ColumnInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/repository/GenConfigRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/rest/GenConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/rest/GeneratorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/service/GenConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/service/GeneratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/service/impl/GenConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/service/impl/GeneratorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/utils/ColUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/utils/GenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/annotation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/domain/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/repository/LogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/rest/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/service/dto/LogErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/service/dto/LogQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/service/dto/LogSmallDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/service/impl/LogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/service/mapstruct/LogErrorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-logging/src/main/java/me/zhengjie/service/mapstruct/LogSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/AppRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/config/ConfigurerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/config/thread/AsyncTaskExecutePool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/config/thread/AsyncTaskProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/config/thread/TheadFactoryName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/config/thread/ThreadPoolExecutorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/domain/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/domain/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/domain/Deploy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/domain/DeployHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/domain/ServerDeploy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/repository/AppRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/repository/DatabaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/repository/DeployHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/repository/DeployRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/repository/ServerDeployRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/rest/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/rest/DatabaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/rest/DeployController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/rest/DeployHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/rest/ServerDeployController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/AppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/DatabaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/DeployHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/DeployService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/ServerDeployService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/dto/AppDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/dto/AppQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/dto/DatabaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/dto/DatabaseQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/dto/DeployDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/dto/DeployHistoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/dto/DeployHistoryQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/dto/DeployQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/dto/ServerDeployDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/dto/ServerDeployQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/impl/AppServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/impl/DatabaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/impl/DeployHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/impl/DeployServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/impl/ServerDeployServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/mapstruct/AppMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/mapstruct/DatabaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/mapstruct/DeployHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/mapstruct/DeployMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/service/mapstruct/ServerDeployMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/util/DataTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/util/ExecuteShellUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/util/ScpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/util/SqlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/util/ZipUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/websocket/MsgType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/websocket/SocketMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/mnt/websocket/WebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/config/JobRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/config/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/domain/QuartzJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/domain/QuartzLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/repository/QuartzJobRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/repository/QuartzLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/rest/QuartzJobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/service/QuartzJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/service/dto/JobQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/service/impl/QuartzJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/task/TestTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/utils/ExecutionJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/utils/QuartzManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/quartz/utils/QuartzRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/config/SecurityProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/rest/AuthorizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/rest/OnlineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/security/JwtAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/security/TokenConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/security/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/security/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/service/OnlineUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/service/dto/AuthUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/service/dto/JwtUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/security/service/dto/OnlineUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/Dict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/DictDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/vo/MenuMetaVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/vo/MenuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/domain/vo/UserPassVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/DeptRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/DictDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/DictRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/JobRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/MenuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/DictDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/JobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/LimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/MonitorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/rest/VerifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/DataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/DictDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/JobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/MonitorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/VerifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/DeptDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/DeptQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/DeptSmallDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/DictDetailDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/DictDetailQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/DictDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/DictQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/DictSmallDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/JobDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/JobQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/JobSmallDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/MenuDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/MenuQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/RoleQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/RoleSmallDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/dto/UserQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/DataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/DictDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/JobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/MonitorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/impl/VerifyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/DeptSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/DictDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/DictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/DictSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/JobMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/JobSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/RoleSmallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/system/service/mapstruct/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/driverOrder/domain/ZyDriverOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/driverOrder/repository/ZyDriverOrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/driverOrder/rest/ZyDriverOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/driverOrder/service/ZyDriverOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/driverOrder/service/dto/ZyDriverOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/driverOrder/service/dto/ZyDriverOrderQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/driverOrder/service/impl/ZyDriverOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/driverOrder/service/mapstruct/ZyDriverOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/employer/domain/ZyEmployerUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/employer/repository/ZyEmployerUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/employer/rest/ZyEmployerUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/employer/service/ZyEmployerUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/employer/service/dto/ZyEmployerUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/employer/service/dto/ZyEmployerUserQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/employer/service/impl/ZyEmployerUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/employer/service/mapstruct/ZyEmployerUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/ownerOrder/domain/ZyOwnerOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/ownerOrder/repository/ZyOwnerOrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/ownerOrder/rest/ZyOwnerOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/ownerOrder/service/ZyOwnerOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/ownerOrder/service/dto/ZyOwnerOrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/ownerOrder/service/dto/ZyOwnerOrderQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/ownerOrder/service/impl/ZyOwnerOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/ownerOrder/service/mapstruct/ZyOwnerOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/user/domain/ZyDriveUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/user/repository/ZyDriveUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/user/rest/ZyDriveUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/user/service/ZyDriveUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/user/service/dto/ZyDriveUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/user/service/dto/ZyDriveUserQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/user/service/impl/ZyDriveUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/modules/zhengyi/user/service/mapstruct/ZyDriveUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/utils/enums/CodeBiEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/utils/enums/CodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/java/me/zhengjie/utils/enums/DataScopeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/email/email.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/email/taskAlarm.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/Controller.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/Dto.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/Entity.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/Mapper.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/QueryCriteria.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/Repository.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/Service.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/admin/ServiceImpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/front/api.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/main/resources/template/generator/front/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/sql/admin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/sql/zy_drive_user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-system/src/test/java/me/zhengjie/EladminSystemApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/config/MultipartConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/AlipayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/EmailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/LocalStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/QiniuConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/QiniuContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/vo/EmailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/domain/vo/TradeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/AliPayRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/EmailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/LocalStorageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/PictureRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/QiNiuConfigRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/repository/QiniuContentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/rest/AliPayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/rest/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/rest/LocalStorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/rest/PictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/rest/QiniuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/AliPayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/LocalStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/PictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/QiNiuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/dto/LocalStorageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/dto/LocalStorageQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/dto/PictureQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/dto/QiniuQueryCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/impl/AliPayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/impl/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/impl/LocalStorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/impl/PictureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/impl/QiNiuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/service/mapstruct/LocalStorageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/utils/AliPayStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/utils/AlipayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eladmin-tools/src/main/java/me/zhengjie/utils/QiNiuUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="admin@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="admin@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="admin@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="admin: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cpxOmrAfVzqCaYKM4hDoRNjIop" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.zhengjie.utils" />
+      <recent name="me.zhengjie.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\idea\admin\eladmin-system\src\sql" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn -U idea:idea" />
+      <command value="mvn -U" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AppRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eladmin-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="me.zhengjie.AppRun" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a7e23bc-0256-46fe-87ba-db56ad127e04" name="Default Changelist" comment="" />
+      <created>1591239306569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591239306569</updated>
+      <workItem from="1591239309365" duration="10145000" />
+      <workItem from="1591319950999" duration="2291000" />
+      <workItem from="1591322714400" duration="13835000" />
+      <workItem from="1591664495138" duration="514000" />
+      <workItem from="1592356418617" duration="1141000" />
+      <workItem from="1592374735441" duration="6196000" />
+      <workItem from="1592442319888" duration="85000" />
+      <workItem from="1592898918521" duration="2208000" />
+      <workItem from="1592980498042" duration="745000" />
+      <workItem from="1593067012648" duration="1878000" />
+      <workItem from="1593069071118" duration="17745000" />
+      <workItem from="1593141007855" duration="10131000" />
+      <workItem from="1593491404815" duration="386000" />
+      <workItem from="1593493964072" duration="1598000" />
+      <workItem from="1593586532575" duration="3102000" />
+      <workItem from="1593652267027" duration="12931000" />
+      <workItem from="1593741730803" duration="5246000" />
+      <workItem from="1593760336831" duration="3533000" />
+    </task>
+    <task id="LOCAL-00001" summary="司机帮">
+      <created>1592375386196</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592375386196</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="司机帮" />
+    <option name="LAST_COMMIT_MESSAGE" value="司机帮" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="91" key="#Assign_Data_Sources" timestamp="1593658414056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="322" y="64" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1593083343373" />
+    <state x="452" y="91" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1593658414056" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1593067039577">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1593067039577" />
+    <state x="60" y="205" key="#SQL_Dialects" timestamp="1593148083598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="60" y="205" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1593148083598" />
+    <state x="117" y="219" key="#SQL_Resolution_Scopes" timestamp="1593084505252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="117" y="219" key="#SQL_Resolution_Scopes/0.0.1366.728@0.0.1366.728" timestamp="1593084505252" />
+    <state x="414" y="164" width="1361" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593589510842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="295" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593081748157" />
+    <state x="414" y="164" width="1361" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593589510842" />
+    <state x="686" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1593761151813">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593146971012" />
+    <state x="686" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593761151813" />
+    <state x="376" y="42" key="CommitChangelistDialog2" timestamp="1592375374498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="376" y="42" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592375374498" />
+    <state width="453" height="546" key="DebuggerActiveHint" timestamp="1593764105205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="453" height="546" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1593764105205" />
+    <state x="651" y="169" key="FileChooserDialogImpl" timestamp="1593764963389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593067037543" />
+    <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593764963389" />
+    <state x="578" y="268" width="256" height="250" key="Github.ShareDialog" timestamp="1593491576346">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="578" y="268" width="256" height="250" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1593491576346" />
+    <state x="813" y="383" width="324" height="357" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592378802772" />
+    <state x="445" y="68" key="Github.UntrackedFilesDialog" timestamp="1593491606965">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="445" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593491606965" />
+    <state width="1867" height="204" key="GridCell.Tab.0.bottom" timestamp="1593764746988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593339621659" />
+    <state width="1867" height="204" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746988" />
+    <state width="1867" height="204" key="GridCell.Tab.0.center" timestamp="1593764746988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593339621659" />
+    <state width="1867" height="204" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746988" />
+    <state width="1867" height="204" key="GridCell.Tab.0.left" timestamp="1593764746988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593339621659" />
+    <state width="1867" height="204" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746988" />
+    <state width="1867" height="204" key="GridCell.Tab.0.right" timestamp="1593764746988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593339621659" />
+    <state width="1867" height="204" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746988" />
+    <state width="1867" height="204" key="GridCell.Tab.1.bottom" timestamp="1593764746988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="203" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593339621659" />
+    <state width="1867" height="204" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746988" />
+    <state width="1867" height="204" key="GridCell.Tab.1.center" timestamp="1593764746988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="203" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593339621659" />
+    <state width="1867" height="204" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746988" />
+    <state width="1867" height="204" key="GridCell.Tab.1.left" timestamp="1593764746988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="203" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593339621659" />
+    <state width="1867" height="204" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746988" />
+    <state width="1867" height="204" key="GridCell.Tab.1.right" timestamp="1593764746988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="203" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593339621659" />
+    <state width="1867" height="204" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746988" />
+    <state width="1867" height="204" key="GridCell.Tab.2.bottom" timestamp="1593764746989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593096189767" />
+    <state width="1867" height="204" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746989" />
+    <state width="1867" height="204" key="GridCell.Tab.2.center" timestamp="1593764746989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1593096189766" />
+    <state width="1867" height="204" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746989" />
+    <state width="1867" height="204" key="GridCell.Tab.2.left" timestamp="1593764746989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1593096189766" />
+    <state width="1867" height="204" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746989" />
+    <state width="1867" height="204" key="GridCell.Tab.2.right" timestamp="1593764746989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1593096189767" />
+    <state width="1867" height="204" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593764746989" />
+    <state width="264" height="550" key="HiddenNamespacesPopup" timestamp="1593589465345">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="264" height="550" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1593589465345" />
+    <state x="345" y="0" key="SettingsEditor" timestamp="1593764957476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="245" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593084189474" />
+    <state x="345" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593764957476" />
+    <state width="200" height="461" key="SqlResolveConfigurable" timestamp="1593084505117">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="200" height="461" key="SqlResolveConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1593084505117" />
+    <state x="452" y="184" key="Vcs.Push.Dialog.v2" timestamp="1592981200282">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592981200282" />
+    <state x="537" y="0" width="539" height="728" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1593084521073">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="537" y="0" width="539" height="728" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1593084521073" />
+    <state x="577" y="297" key="com.intellij.ide.util.TipDialog" timestamp="1593654155890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="577" y="297" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593654155890" />
+    <state x="414" y="191" width="1092" height="745" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593669095560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="191" width="1092" height="745" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1593669095560" />
+    <state x="574" y="198" width="891" height="644" key="find.popup" timestamp="1593657127257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="408" y="139" width="634" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1593151408546" />
+    <state x="574" y="198" width="891" height="644" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593657127257" />
+    <state x="605" y="262" key="git4idea.merge.GitPullDialog" timestamp="1592378967107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="262" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592378967107" />
+    <state x="326" y="15" width="672" height="677" key="run.anything.popup" timestamp="1593148212443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="326" y="15" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1593148212443" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1593081890626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593081890626" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/eladmin-generator/src/main/java/me/zhengjie/utils/GenUtil.java</url>
+          <line>404</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
